@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2</title>
+</head>
+<style>
+.links{
+   
+   text-align: center;
+     
+ }
+ li a{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     font-size: 20px;
+     margin-bottom: 7px;
+ }
+ ul li {
+    list-style-type: none;
+ }
+
+ 
+ .container{
+    position: relative;
+        width: 650px;
+        height: 375px;
+        border: 2px solid;
+        margin: 20px auto;
+
+ }
+.smallblocks{
+    height: 100px; 
+    width: 100px; 
+    border: 1px solid;
+    position: absolute;
+    z-index: 3;
+}
+.blueblocks{
+    height: 135px; 
+    width: 135px; 
+    border: 1px solid;
+    position: absolute;
+    background-color: blue;
+}
+.greyblock{
+width: 390px;
+height: 200px;
+background-color: lightgrey;
+border: 1px solid;
+position: relative;
+margin:  70px 0px 0px 240px;
+z-index: 2;
+}
+.redblock{
+  width: 350px;
+  height: 160px;
+  background-color: red;
+  border: 1px solid;
+  position: absolute;
+  margin: 20px;
+  z-index: 4;
+}
+
+
+</style>
+<body>
+    <div class="links">
+        <ul>
+
+            <li><a href="/homework2/index.html">Завдання number One</a></li>
+            <li><a href="/homework2/index1.html">Завдання number Two</a></li>
+            <li><a href="/homework2/index2.html">Завдання number Three</a></li> 
+            <li><a href="/homework2/index3.html">Завдання number Four</a></li> 
+
+        </ul>
+        
+        
+    </div>
+    <div class="container">
+        <div class="smallblocks" style=" margin: 70px 0px 0px 20px; background-color: green;"> </div>
+        <div class="smallblocks" style=" margin: 171px 0px 0px 20px; background-color: black"> </div>
+        <div class="smallblocks"style=" margin: 70px 0px 0px 121px; background-color: white"> </div>
+        <div class="smallblocks" style="margin: 171px 0px 0px 121px; background-color: rgb(139, 37, 37)"> </div>
+        <div class="blueblocks" style="margin: 214px 0px 0px 163px; z-index: 1;"> </div>
+        <div class="blueblocks" style="margin: 214px 0px 0px 315px; z-index: 3;"> </div>
+        <div class="blueblocks" style="margin: 214px 0px 0px 465px; z-index: 1;"> </div>
+        <div class="greyblock">
+            <div class="redblock"> </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
